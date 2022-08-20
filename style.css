@@ -1,0 +1,55 @@
+.interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 90vh;
+}
+
+.input_btn {
+width: 125px;
+height: 125px;
+background: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#player {
+    display: flex;
+    flex-direction: row;
+}
+
+#id_X {
+    font-size: 5em;
+    color: red;
+}
+
+#id_O {
+    font-size: 5em;
+    color: green;
+}
+
+#player_1, #player_2 {
+    margin: 2em;
+}
+
+#player_1 {
+    color: red;
+}
+
+#player_2 {
+    color: green;
+}
+
+@media screen and (max-width: 500px) {
+    .input_btn {
+        width: 100px;
+        height: 100px;
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
