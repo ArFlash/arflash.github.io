@@ -67,6 +67,14 @@ body {
         align-items: center;
     }
 
+    .mode_btn {
+        width: 100px;
+        height: 50px;
+        margin: 20px;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+
     #id_X {
         font-size: 3em;
         color: red;
